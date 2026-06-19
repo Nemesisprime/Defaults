@@ -14,6 +14,7 @@ let package = Package(
 	products: [
 		.library(
 			name: "Defaults",
+			type: .dynamic,
 			targets: [
 				"Defaults"
 			]
